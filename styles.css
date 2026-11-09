@@ -11,3 +11,9 @@ body{position:relative;isolation:isolate;background:#081b2c}
 .science-backdrop{position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(rgba(5,19,33,.54),rgba(5,19,33,.70)),url('assets/science-background.png');background-size:cover;background-position:center;background-repeat:no-repeat}
 .discipline-bar,.expertise{background:rgba(13,37,58,.75)}
 @media(max-width:640px){.science-backdrop{background-position:43% center}}
+
+/* Study rescue and transition page */
+nav .nav-rescue{color:var(--accent);font-weight:700;border-bottom:2px solid var(--accent);padding-bottom:5px}
+.rescue-hero{padding-block:85px 80px;max-width:1280px}.rescue-hero h1{font-size:clamp(58px,7vw,96px)}.rescue-lead{font-size:24px;max-width:770px;margin:30px 0 18px}.rescue-summary{max-width:760px;color:var(--muted);margin:0 0 32px}.rescue-hero+.discipline-bar{margin-bottom:20px}
+@media(max-width:950px){.header{flex-wrap:wrap}nav{flex-wrap:wrap;gap:18px 24px}.rescue-hero{padding-block:60px}}
+@media(max-width:640px){.header{align-items:flex-start}nav{width:100%;justify-content:space-between;font-size:13px}nav>a.nav-rescue{display:inline-block}.rescue-hero{padding-block:46px}.rescue-hero h1{font-size:clamp(47px,12vw,70px)}.rescue-lead{font-size:21px}.rescue-summary{font-size:16px}}
